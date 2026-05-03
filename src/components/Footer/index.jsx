@@ -3,10 +3,9 @@ import './style.css'
 export function Footer(){
     return (
     <div class='footer'>
-        <p>13.04.2026</p>
-        <p>Marina Dainenko</p>
+        <h3>28.04.2026</h3>
+        <h2>Anastasiya Mirchuk</h2>
         </div>
     )
 }
-
 export default Footer

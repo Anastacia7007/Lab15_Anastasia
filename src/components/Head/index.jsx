@@ -6,9 +6,9 @@ const setActive = ({isActive}) => (isActive ? "active" : "")
 export function Head(){
     return <div className='header'>
         <nav className='nav-container'>
-            <NavLink to='/news' className={setActive}>Новости</NavLink>
-            <NavLink to='/about'className={setActive}>Проект</NavLink>
-            <NavLink to='/contact'className={setActive}>Контакты</NavLink>
+            <NavLink to='/news' className={setActive}>News</NavLink>
+            <NavLink to='/about'className={setActive}>Project</NavLink>
+            <NavLink to='/contact'className={setActive}>Contact</NavLink>
         </nav>
     </div>
 }
